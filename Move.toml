@@ -1,0 +1,9 @@
+[package]
+name = "shomei"
+edition = "2024"
+published-at = "0x82b20f522e8387e4acf69be8fe10f53ec82afca1fa05b8c504609ebc54bf97b2"
+
+[dependencies]
+
+[addresses]
+shomei = "0x82b20f522e8387e4acf69be8fe10f53ec82afca1fa05b8c504609ebc54bf97b2"
