@@ -23,7 +23,7 @@ module shomei::price_feed {
     const EInterfaceOnly: u64 = 0;
 
     /// A single signed price.
-    /// value = (negative ? -1 : 1) * mantissa * 10 ^ ((expo_negative ? -1 : 1) * expo)
+    /// value = (negative ? -1 : 1) * mantissa * 10 ^ ((expo_negative ? 1 : -1) * expo)
     public struct PriceValue has store, copy, drop {
         mantissa: u64,
         negative: bool,
